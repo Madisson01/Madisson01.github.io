@@ -27,7 +27,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     toggleGrid();
+     //toggleGrid();
 
 
     // TODO 2 - Create Platforms
@@ -52,8 +52,8 @@ createCannon("right",200,1500);
 createCannon("top",500,3000);
 
 createbadPlatform(500,400,100,20, "red")
-createCollectable("diamond",200,100,0,1,100,300,2 "red");
-createPlatform(100,300,200,20, "green",100,400,2,0,0)
+createCollectable("diamond",200,100,0,1,100,300,2, "red");
+createPlatform(100,300,200,20, "green");
 
     
     
